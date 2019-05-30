@@ -1,0 +1,29 @@
+{% load static %}
+<html>
+
+    <head>
+        <link rel = "stylesheet" href = "{% static 'css/style.css' %}">
+    </head>
+
+    <body>
+        <div>
+        <h1 style = "margin-left: 50px;">안녕하세요 이곳은 글자수를 세주는 곳입니다.</h1>
+
+        <a href="{%url 'about'%}">about</a>
+
+        <form action="{%url 'result'%}">
+                <textarea name="fulltext" onkeyup="xSize(this)" style="width:300px;height:36px;overflow-y:hidden; background-color:black; color: white; font-weight: bold;"></textarea>
+                <script>
+                    function xSize(e)
+                    {
+                        e.style.height = '1px';
+                        e.style.height = (e.scrollHeight + 12) + 'px';
+                    }
+                </script>
+        <br>
+        <input type="submit" value="Count!">
+        <input type="reset" value="Reset!">
+        </form>
+        </div>
+    </body>
+</html>

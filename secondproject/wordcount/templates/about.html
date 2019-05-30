@@ -1,0 +1,14 @@
+{% load static %}
+<html>
+    <head>
+        <link rel = "stylesheet" href = "{% static 'css/style.css' %}">
+    </head>
+    <body>
+        <div>
+        <h1>about</h1>
+        <p>안녕하세요. 이곳은 글자를 세 주는 페이지입니다. 이곳에서 글자를 세세요.</p>
+
+        <a href="{%url 'home'%}">Home으로 돌아가기</a>
+        </div>
+    </body>
+</html>

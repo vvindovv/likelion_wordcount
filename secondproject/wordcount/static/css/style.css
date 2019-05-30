@@ -1,0 +1,64 @@
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+div{
+    border: 10px solid pink;
+    background-image:url(calculator.png);
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 70px 70px;
+    padding: 15px;
+    filter: grayscale(100%);
+}
+
+a{
+    color:violet;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+input{
+    cursor: pointer;
+    background: transparent;
+    font-weight: bold;
+}
+
+input[type=text]{
+    font-weight: bold;
+    color: #3CBC8D;
+}
+
+.full{
+    font-weight: bold;
+    background-color: black;
+    color: #3CBC8D;
+}
+
+.howmany{
+    font-weight: bold;
+    background-color: black;
+    color: #3CBC8D;
+}
+
+.what{
+    font-weight: bold;
+    background-color: black;
+    color: #3CBC8D;
+}
